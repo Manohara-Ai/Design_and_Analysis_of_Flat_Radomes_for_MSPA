@@ -1,0 +1,115 @@
+\documentclass[11pt,a4paper]{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{float}
+\usepackage{setspace}
+\usepackage{eso-pic}
+\usepackage{xcolor}
+
+\geometry{
+    left=1in,
+    right=1in,
+    top=1in,
+    bottom=1in
+}
+
+\pagestyle{fancy}
+\setlength{\headheight}{14pt}
+\fancyhf{}
+\fancyhead[L]{\nouppercase{\leftmark}}
+\fancyhead[R]{\thepage}
+
+\setstretch{1.15}
+
+\title{\Huge \textbf{} \\[0.5em]\large}
+\author{}
+\date{}
+
+\begin{document}
+
+\AddToShipoutPictureBG*{%
+    \includegraphics[width=\paperwidth,height=\paperheight]{figures/cover1.png}%
+}
+
+\maketitle
+
+% Second page blank after title
+\cleardoublepage
+\thispagestyle{empty}
+\null
+\newpage
+
+\chapter*{Title Page}
+\addcontentsline{toc}{chapter}{Title Page}
+\thispagestyle{empty}
+
+\vspace*{2cm}
+{\Large \textcolor{orange}{\textbf{KRITTIKA SUMMER PROJECTS 2025}} \par}
+\vspace{1cm}
+{\Huge \bfseries \textcolor{red}{Design and Analysis of Radomes} \par}
+\vspace{0.2cm}
+{\Huge \bfseries \textcolor{red}{for Microstrip Patch Antenna} \par}
+\vspace{0.2cm}
+{\Huge \bfseries \textcolor{red}{at 6GHz} \par}
+\vspace{1.5cm}
+{\large \textbf{\textcolor{olive}{B M Manohara}} \par}
+\vspace{1.5cm}
+
+\begin{flushleft}
+1. Krittika-The Astronomy Club of IIT Bombay, Powai, Mumbai 400076, India \\
+2. R V College Of Engineering, Bengaluru, Karnataka 560059, India \\
+3. Dhruva-The Astronomy Club of RVCE, Bengaluru, Karnataka 560059, India
+\end{flushleft}
+
+\vfill
+\begin{flushleft}
+\footnotesize
+\textcopyright{} 2025 Krittika IITB \\
+    \textbf{Published by Krittika: The Astronomy Club of IIT Bombay} \\[0.5em]
+    \href{https://github.com/krittikaiitb}{github.com/krittikaiitb} \\
+    \href{https://github.com/Manohara-Ai}{github.com/Manohara-Ai} \\
+    Repository: \texttt{Design\_and\_Analysis\_of\_Flat\_Radomes\_for\_MSPA} \\[0.5em]
+    First Release, August 2025
+\end{flushleft}
+
+\cleardoublepage
+\thispagestyle{empty}
+\null
+\newpage
+
+\chapter*{Abstract}
+
+Astronomy experiments operating at radio frequencies (RF) and higher are rapidly growing in both scale and importance. Observations in these spectral regions enable us to explore fundamental questions, from tracing the thermal history of the universe to studying the conditions present during the early stages of universe. Antennas operating at these wavelengths, typically in the millimeter scales, are often cooled to cryogenic temperatures to reduce thermally generated noise. To maintain a vacuum environment around such antennas, protective radome structures are used. However, these radomes can distort the antenna’s beam pattern, potentially degrading the quality and integrity of the observations. As the operating frequency decreases toward longer radio wavelengths, the required radome thickness increases, introducing additional signal losses.
+
+In this work, we design a range of antennas operating at mspa millimeter wavelengths, enclose them within flat radome structure, and carry out a detailed analysis of the antenna–radome system. Ultimately, this study aims to identify positioning strategies that minimize signal degradation and preserve the integrity of the antenna radiation pattern.
+
+\tableofcontents
+\listoffigures
+\listoftables
+
+% Chapters split in separate files
+\cleardoublepage
+\thispagestyle{empty}
+\null
+\newpage
+
+\input{chapters/intro}
+\input{chapters/theory}
+\input{chapters/radome}
+\input{chapters/mspa}
+\input{chapters/simulation}
+\input{chapters/results}
+\input{chapters/conclusion}
+\input{chapters/acknowledgements}
+
+\nocite{*}
+\bibliographystyle{unsrt}
+\bibliography{bibliography/bibliography.bib}
+
+\end{document}

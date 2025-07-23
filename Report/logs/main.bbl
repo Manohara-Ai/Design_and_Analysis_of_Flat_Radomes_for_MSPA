@@ -1,0 +1,31 @@
+\begin{thebibliography}{1}
+
+\bibitem{aemterms}
+{AEM Antennas}.
+\newblock Antenna terminology – understanding antenna patterns, gain, and
+  more, n.d.
+\newblock Accessed: 2025-07-23.
+
+\bibitem{werfelli2016patch}
+Houda Werfelli, Nejib Zebbari, Faouzi Boulejfen, and Rached Ghayoula.
+\newblock Design of rectangular microstrip patch antenna.
+\newblock In {\em 2016 2nd International Conference on Advanced Technologies
+  for Signal and Image Processing (ATSIP)}, pages 251--254. IEEE, 2016.
+
+\bibitem{balanis}
+Constantine~A. Balanis.
+\newblock {\em Antenna Theory: Analysis and Design}.
+\newblock Wiley, 4th edition, 2016.
+
+\bibitem{swra705}
+Chethan Kumar, Habeeb Ur~Rahman Mohammed, and Greg Peake.
+\newblock mmwave radar radome design guide.
+\newblock Technical Report SWRA705, Texas Instruments, 2021.
+
+\bibitem{mcculloch2023sband}
+Mark~A. McCulloch, Daniel~C. Price, Calvin~B. Drouillard, Ben~M. Preu, David~R.
+  DeBoer, and Willem~A. van Cappellen.
+\newblock An s-band cryogenic phased array feed for radio astronomy.
+\newblock {\em RAS Techniques and Instruments}, 2(1):432--440, 2023.
+
+\end{thebibliography}
