@@ -92,14 +92,85 @@ Key parameters describing antennas include:
     \]
     where $\eta$ is the radiation efficiency, incorporating conductor or dielectric losses.
 \end{itemize}
-
 \section{S-Parameters in Antenna Design}
 
-In RF analysis, antennas are treated as ports in a network. The reflection coefficient $S_{11}$ describes how much of the incident power is reflected:
+In high-frequency circuit analysis—including antenna systems—\textbf{S-parameters} (Scattering Parameters) are used to characterize how signals behave at the ports of a network. Figure~\ref{fig:sparams} illustrates a \textbf{2-port network}, which is a common model for analyzing antennas, filters, and other RF components.
+
+\subsection*{S-Parameter Matrix Representation}
+
+The network is described using incident and reflected wave amplitudes as follows:
+
 \[
-S_{11} = \frac{V_{reflected}}{V_{incident}}
+\begin{bmatrix}
+b_1 \\
+b_2
+\end{bmatrix}
+=
+\begin{bmatrix}
+S_{11} & S_{12} \\
+S_{21} & S_{22}
+\end{bmatrix}
+\begin{bmatrix}
+a_1 \\
+a_2
+\end{bmatrix}
 \]
-A value of $S_{11}$ below $-10\,\mathrm{dB}$ is generally considered acceptable.
+
+Where:
+\begin{itemize}
+    \item $a_1$, $a_2$ are the incident signals at Port 1 and Port 2, respectively,
+    \item $b_1$, $b_2$ are the reflected signals from Port 1 and Port 2,
+    \item $S_{ij}$ are the scattering parameters describing how input at Port $j$ affects output at Port $i$.
+\end{itemize}
+
+\subsection*{Definitions of Each S-Parameter}
+
+From the figure:
+
+\begin{align*}
+S_{11} &= \frac{b_1}{a_1} \Big|_{a_2 = 0} \quad &\text{(Reflection at Port 1)} \\
+S_{21} &= \frac{b_2}{a_1} \Big|_{a_2 = 0} \quad &\text{(Transmission from Port 1 to Port 2)} \\
+S_{12} &= \frac{b_1}{a_2} \Big|_{a_1 = 0} \quad &\text{(Transmission from Port 2 to Port 1)} \\
+S_{22} &= \frac{b_2}{a_2} \Big|_{a_1 = 0} \quad &\text{(Reflection at Port 2)}
+\end{align*}
+
+\subsection*{Interpretation in Antenna Context}
+
+In antenna analysis (typically modeled as a 1-port network), the most relevant parameter is:
+
+\[
+S_{11} = \frac{V_{\text{reflected}}}{V_{\text{incident}}}
+\]
+
+\begin{itemize}
+    \item $S_{11}$ quantifies how much power is reflected back from the antenna due to impedance mismatch.
+    \item An $S_{11}$ value below $-10\,\mathrm{dB}$ implies that over 90\% of the input power is radiated or absorbed, which is generally considered acceptable.
+\end{itemize}
+
+\subsection*{Summary Table}
+
+\begin{table}[H]
+\centering
+\caption{S-Parameter Definitions and Use in Antenna Design}
+\begin{tabular}{lcl}
+\toprule
+\textbf{Parameter} & \textbf{Definition} & \textbf{Use} \\
+\midrule
+$S_{11}$ & $\frac{b_1}{a_1} \Big|_{a_2 = 0}$ & Return loss at Port 1 (antenna input) \\
+$S_{21}$ & $\frac{b_2}{a_1} \Big|_{a_2 = 0}$ & Forward transmission (Port 1 to 2) \\
+$S_{12}$ & $\frac{b_1}{a_2} \Big|_{a_1 = 0}$ & Reverse transmission (Port 2 to 1) \\
+$S_{22}$ & $\frac{b_2}{a_2} \Big|_{a_1 = 0}$ & Return loss at Port 2 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.55\textwidth]{figures/s11.jpg}
+\caption{S-parameter model of a 2-port RF network showing definitions of $S_{ij}$ based on incident and reflected wave relationships.}
+\small Image adapted from \cite{microwavejournal_sparams}.
+\label{fig:sparams}
+\end{figure}
 
 \begin{figure}[H]
     \centering

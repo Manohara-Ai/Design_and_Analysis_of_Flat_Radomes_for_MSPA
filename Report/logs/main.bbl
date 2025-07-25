@@ -28,4 +28,12 @@ Mark~A. McCulloch, Daniel~C. Price, Calvin~B. Drouillard, Ben~M. Preu, David~R.
 \newblock An s-band cryogenic phased array feed for radio astronomy.
 \newblock {\em RAS Techniques and Instruments}, 2(1):432--440, 2023.
 
+\bibitem{microwavejournal_sparams}
+{Microwave Journal}.
+\newblock Basic microwave measurements.
+\newblock
+  \url{https://www.microwavejournal.com/articles/30309-basic-microwave-measurements?page=2},
+  2018.
+\newblock Accessed: 2025-07-25.
+
 \end{thebibliography}

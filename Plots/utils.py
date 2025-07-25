@@ -18,7 +18,7 @@ def plot_polar(files: dict, phi_filter=0, column="dB(GainTotal) []", title="Radi
         df = df[df["Phi [deg]"] == phi_filter]
         theta_rad = np.deg2rad(df["Theta [deg]"].values)
         values = df[column].values
-        display_label = "Without Radome" if label == "W" else "With Radome"
+        display_label = "Without Flat Radome" if label == "W" else "With Flat Radome"
         ax.plot(theta_rad, values, label=display_label)
     ax.set_title(f"{title} (phi={phi_filter}°)")
     ax.set_theta_zero_location("N")
@@ -38,7 +38,7 @@ def plot_rectangular(files: dict, x_column, y_column, x_label, y_label, title, f
         df[y_column] = pd.to_numeric(df[y_column], errors="coerce")
         x = df[x_column].values
         y = df[y_column].values
-        display_label = "Without Radome" if label == "W" else "With Radome"
+        display_label = "Without Flat Radome" if label == "W" else "With Flat Radome"
         ax.plot(x, y, label=display_label)
     ax.set_xlabel(x_label)
     ax.set_ylabel(y_label)

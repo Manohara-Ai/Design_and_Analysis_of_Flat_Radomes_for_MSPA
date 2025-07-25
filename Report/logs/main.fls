@@ -710,6 +710,11 @@ INPUT ./figures/lobe.png
 INPUT figures/lobe.png
 INPUT ./figures/lobe.png
 INPUT ./figures/lobe.png
+INPUT ./figures/s11.jpg
+INPUT ./figures/s11.jpg
+INPUT figures/s11.jpg
+INPUT ./figures/s11.jpg
+INPUT ./figures/s11.jpg
 INPUT ./figures/radiation.png
 INPUT ./figures/radiation.png
 INPUT figures/radiation.png
@@ -752,6 +757,11 @@ INPUT chapters/simulation.tex
 INPUT ./chapters/simulation.tex
 INPUT ./chapters/simulation.tex
 INPUT chapters/simulation.tex
+INPUT ./figures/flat_radome.jpeg
+INPUT ./figures/flat_radome.jpeg
+INPUT figures/flat_radome.jpeg
+INPUT ./figures/flat_radome.jpeg
+INPUT ./figures/flat_radome.jpeg
 INPUT ./chapters/results.tex
 INPUT ./chapters/results.tex
 INPUT ./chapters/results.tex
@@ -897,6 +907,7 @@ INPUT ./main.bbl
 INPUT main.bbl
 INPUT ./main.bbl
 INPUT main.bbl
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out
@@ -917,5 +928,6 @@ INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb

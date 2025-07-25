@@ -1,37 +1,39 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Current distribution on a lossless two-wire transmission line, flared transmission line, and linear dipole.}}{12}{figure.2.1}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Visualization of an antenna radiation pattern showing the main lobe, side lobes, back lobe, and nulls.\\[0.5em] \small Image adapted from \cite {aemterms}.}}{13}{figure.2.2}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Source, transmission line, antenna, and detachment of electric field lines.}}{15}{figure.2.3}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Current distribution on a lossless two-wire transmission line, flared transmission line, and linear dipole.}}{13}{figure.2.1}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Visualization of an antenna radiation pattern showing the main lobe, side lobes, back lobe, and nulls.\\[0.5em] \small Image adapted from \cite {aemterms}.}}{14}{figure.2.2}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces S-parameter model of a 2-port RF network showing definitions of $S_{ij}$ based on incident and reflected wave relationships.}}{17}{figure.2.3}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Source, transmission line, antenna, and detachment of electric field lines.}}{17}{figure.2.4}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Distance Traveled in Rectangular Radome Wall for Different Grazing Angles.}}{18}{figure.3.1}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Distance Traveled in Rectangular Radome Wall for Different Grazing Angles.}}{21}{figure.3.1}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Basic structure of a rectangular microstrip patch antenna (without inset feed).}}{21}{figure.4.1}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Inset-fed rectangular microstrip patch antenna.}}{22}{figure.4.2}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Basic structure of a rectangular microstrip patch antenna (without inset feed).}}{24}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Inset-fed rectangular microstrip patch antenna.}}{25}{figure.4.2}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Front view of the simulation setup showing the patch antenna enclosed within a flat PMMA radome in ANSYS HFSS.}}{28}{figure.5.1}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Simulated S11 (return loss) of the patch antenna without radome.}}{26}{figure.6.1}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Simulated VSWR of the patch antenna without radome.}}{27}{figure.6.2}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Simulated gain of the patch antenna without radome.}}{27}{figure.6.3}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Gain pattern of the patch antenna without radome in both E-plane and H-plane.}}{28}{figure.6.4}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Co-polarization response of the patch antenna without radome.}}{28}{figure.6.5}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Cross-polarization response of the patch antenna without radome.}}{29}{figure.6.6}%
-\contentsline {figure}{\numberline {6.7}{\ignorespaces General $rE$ field distribution without radome.}}{29}{figure.6.7}%
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Identified optimal inset feed parameters from the parametric sweep.}}{30}{figure.6.8}%
-\contentsline {figure}{\numberline {6.9}{\ignorespaces General overview of the parametric analysis for feed inset optimization.}}{31}{figure.6.9}%
-\contentsline {figure}{\numberline {6.10}{\ignorespaces Gain variation in the E-plane for different inter-radome (airgap) distances.}}{31}{figure.6.10}%
-\contentsline {figure}{\numberline {6.11}{\ignorespaces Gain variation in the H-plane for different inter-radome (airgap) distances.}}{32}{figure.6.11}%
-\contentsline {figure}{\numberline {6.12}{\ignorespaces Simulated gain of the patch antenna with flat radome.}}{32}{figure.6.12}%
-\contentsline {figure}{\numberline {6.13}{\ignorespaces Simulated S11 of the patch antenna with flat radome.}}{33}{figure.6.13}%
-\contentsline {figure}{\numberline {6.14}{\ignorespaces Simulated VSWR of the patch antenna with flat radome.}}{34}{figure.6.14}%
-\contentsline {figure}{\numberline {6.15}{\ignorespaces Simulated gain of the patch antenna with flat radome at 3,GHz.}}{35}{figure.6.15}%
-\contentsline {figure}{\numberline {6.16}{\ignorespaces Simulated gain of the patch antenna with flat radome at 6,GHz.}}{36}{figure.6.16}%
-\contentsline {figure}{\numberline {6.17}{\ignorespaces Simulated gain of the patch antenna with flat radome at 9,GHz.}}{37}{figure.6.17}%
-\contentsline {figure}{\numberline {6.18}{\ignorespaces Simulated gain of the patch antenna with flat radome at 3,GHz.}}{38}{figure.6.18}%
-\contentsline {figure}{\numberline {6.19}{\ignorespaces Simulated gain of the patch antenna with flat radome at 6,GHz.}}{39}{figure.6.19}%
-\contentsline {figure}{\numberline {6.20}{\ignorespaces Simulated gain of the patch antenna with flat radome at 9,GHz.}}{40}{figure.6.20}%
-\contentsline {figure}{\numberline {6.21}{\ignorespaces Far-field E-plane radiation pattern with flat radome.}}{41}{figure.6.21}%
-\contentsline {figure}{\numberline {6.22}{\ignorespaces Far-field H-plane radiation pattern with flat radome.}}{42}{figure.6.22}%
-\contentsline {figure}{\numberline {6.23}{\ignorespaces Co-polarization response of the patch antenna with flat radome.}}{43}{figure.6.23}%
-\contentsline {figure}{\numberline {6.24}{\ignorespaces Cross-polarization response of the patch antenna with flat radome.}}{43}{figure.6.24}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Simulated S11 (return loss) of the patch antenna without radome.}}{30}{figure.6.1}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Simulated VSWR of the patch antenna without radome.}}{31}{figure.6.2}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Simulated gain of the patch antenna without radome.}}{31}{figure.6.3}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Gain pattern of the patch antenna without radome in both E-plane and H-plane.}}{32}{figure.6.4}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Co-polarization response of the patch antenna without radome.}}{32}{figure.6.5}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Cross-polarization response of the patch antenna without radome.}}{33}{figure.6.6}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces General $rE$ field distribution without radome.}}{33}{figure.6.7}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Identified optimal inset feed parameters from the parametric sweep.}}{34}{figure.6.8}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces General overview of the parametric analysis for feed inset optimization.}}{35}{figure.6.9}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Gain variation in the E-plane for different inter-radome (airgap) distances.}}{35}{figure.6.10}%
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Gain variation in the H-plane for different inter-radome (airgap) distances.}}{36}{figure.6.11}%
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Simulated gain of the patch antenna with flat radome.}}{36}{figure.6.12}%
+\contentsline {figure}{\numberline {6.13}{\ignorespaces Simulated S11 of the patch antenna with flat radome.}}{37}{figure.6.13}%
+\contentsline {figure}{\numberline {6.14}{\ignorespaces Simulated VSWR of the patch antenna with flat radome.}}{38}{figure.6.14}%
+\contentsline {figure}{\numberline {6.15}{\ignorespaces Simulated gain of the patch antenna with flat radome at 3,GHz.}}{39}{figure.6.15}%
+\contentsline {figure}{\numberline {6.16}{\ignorespaces Simulated gain of the patch antenna with flat radome at 6,GHz.}}{40}{figure.6.16}%
+\contentsline {figure}{\numberline {6.17}{\ignorespaces Simulated gain of the patch antenna with flat radome at 9,GHz.}}{41}{figure.6.17}%
+\contentsline {figure}{\numberline {6.18}{\ignorespaces Simulated gain of the patch antenna with flat radome at 3,GHz.}}{42}{figure.6.18}%
+\contentsline {figure}{\numberline {6.19}{\ignorespaces Simulated gain of the patch antenna with flat radome at 6,GHz.}}{43}{figure.6.19}%
+\contentsline {figure}{\numberline {6.20}{\ignorespaces Simulated gain of the patch antenna with flat radome at 9,GHz.}}{44}{figure.6.20}%
+\contentsline {figure}{\numberline {6.21}{\ignorespaces Far-field E-plane radiation pattern with flat radome.}}{45}{figure.6.21}%
+\contentsline {figure}{\numberline {6.22}{\ignorespaces Far-field H-plane radiation pattern with flat radome.}}{46}{figure.6.22}%
+\contentsline {figure}{\numberline {6.23}{\ignorespaces Co-polarization response of the patch antenna with flat radome.}}{47}{figure.6.23}%
+\contentsline {figure}{\numberline {6.24}{\ignorespaces Cross-polarization response of the patch antenna with flat radome.}}{47}{figure.6.24}%
 \addvspace {10\p@ }

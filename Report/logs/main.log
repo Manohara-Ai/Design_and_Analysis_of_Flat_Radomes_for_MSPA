@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.6.29)  24 JUL 2025 01:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.6.29)  26 JUL 2025 03:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -416,141 +416,165 @@ l.46 \newpage
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [6] (./main.lof)
+ [6] (./main.lof [7
+
+])
 \tf@lof=\write5
 \openout5 = `main.lof'.
 
- [7
-
-] (./main.lot)
+ [8] (./main.lot)
 \tf@lot=\write6
 \openout6 = `main.lot'.
 
- [8
+ [9
 
-] [9
+] [10
 
 ] (./chapters/intro.tex
 Chapter 1.
-) (./chapters/theory.tex [10
+) (./chapters/theory.tex [11
 
 ]
 Chapter 2.
-<figures/dipole.png, id=353, 509.905pt x 710.655pt>
+<figures/dipole.png, id=366, 509.905pt x 710.655pt>
 File: figures/dipole.png Graphic file (type png)
 <use figures/dipole.png>
 Package pdftex.def Info: figures/dipole.png  used on input line 21.
 (pdftex.def)             Requested size: 339.72592pt x 473.50136pt.
-[11
+[12
 
-] [12pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) has been already used, duplicate ignored
+] [13pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.40     \]
             <./figures/dipole.png>]
-<figures/lobe.png, id=370, 1022.82124pt x 499.8675pt>
+<figures/lobe.png, id=382, 1022.82124pt x 499.8675pt>
 File: figures/lobe.png Graphic file (type png)
 <use figures/lobe.png>
 Package pdftex.def Info: figures/lobe.png  used on input line 65.
 (pdftex.def)             Requested size: 317.07614pt x 154.95732pt.
- [13pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) has been already used, duplicate ignored
+ [14pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.75     \item \textbf
-                      {HPBW (Half Power Beam Width)}: <./figures/lobe.png>]
-<figures/radiation.png, id=379, 508.90125pt x 699.61375pt>
-File: figures/radiation.png Graphic file (type png)
-<use figures/radiation.png>
-Package pdftex.def Info: figures/radiation.png  used on input line 106.
-(pdftex.def)             Requested size: 271.7835pt x 373.64381pt.
- [14]) (./chapters/radome.tex [15pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) has been already used, duplicate ignored
+                      {HPBW (Half Power Beam Width)}: <./figures/lobe.png>] [15]
+<figures/s11.jpg, id=398, 144.54pt x 98.769pt>
+File: figures/s11.jpg Graphic file (type jpg)
+<use figures/s11.jpg>
+Package pdftex.def Info: figures/s11.jpg  used on input line 169.
+(pdftex.def)             Requested size: 249.13371pt x 170.25008pt.
+ [16pdfTeX warning (ext4): destination with the same identifier (name{table.2.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1 \chapter
-            {Radomes} <./figures/radiation.png>]
+l.174 
+      ]
+<figures/radiation.png, id=407, 508.90125pt x 699.61375pt>
+File: figures/radiation.png Graphic file (type png)
+<use figures/radiation.png>
+Package pdftex.def Info: figures/radiation.png  used on input line 177.
+(pdftex.def)             Requested size: 271.7835pt x 373.64381pt.
+ [17pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.186 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.186 
+       <./figures/s11.jpg> <./figures/radiation.png>]) (./chapters/radome.tex [18]
 Chapter 3.
-[16
+[19
 
 ]
-<figures/flat.png, id=396, 1305.87875pt x 518.93875pt>
+<figures/flat.png, id=426, 1305.87875pt x 518.93875pt>
 File: figures/flat.png Graphic file (type png)
 <use figures/flat.png>
 Package pdftex.def Info: figures/flat.png  used on input line 77.
 (pdftex.def)             Requested size: 407.66833pt x 162.00168pt.
- [17]) (./chapters/mspa.tex [18pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) has been already used, duplicate ignored
+ [20]) (./chapters/mspa.tex [21pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.1 \chapter
             {Microstrip Patch Antennas} <./figures/flat.png>]
 Chapter 4.
-[19
+[22
 
 ]
-<figures/mspa_no_inset.png, id=421, 474.77374pt x 243.91125pt>
+<figures/mspa_no_inset.png, id=449, 474.77374pt x 243.91125pt>
 File: figures/mspa_no_inset.png Graphic file (type png)
 <use figures/mspa_no_inset.png>
 Package pdftex.def Info: figures/mspa_no_inset.png  used on input line 62.
 (pdftex.def)             Requested size: 452.9679pt x 232.71924pt.
- [20]
-<figures/inset.png, id=428, 447.6725pt x 216.81pt>
+ [23]
+<figures/inset.png, id=456, 447.6725pt x 216.81pt>
 File: figures/inset.png Graphic file (type png)
 <use figures/inset.png>
 Package pdftex.def Info: figures/inset.png  used on input line 86.
 (pdftex.def)             Requested size: 452.9679pt x 219.37996pt.
- [21pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1}) has been already used, duplicate ignored
+ [24pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.91 
-      <./figures/mspa_no_inset.png>]) (./chapters/simulation.tex [22pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2}) has been already used, duplicate ignored
+      <./figures/mspa_no_inset.png>]) (./chapters/simulation.tex [25pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.1 \chapter
             {Simulation Setup and Methodology} <./figures/inset.png>]
 Chapter 5.
-[23
+[26
 
 pdfTeX warning (ext4): destination with the same identifier (name{table.5.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.60     \item S
-                olution sweep over frequency range to obtain $S_{11}$ and ga...] [24pdfTeX warning (ext4): destination with the same identifier (name{table.5.2}) has been already used, duplicate ignored
+                olution sweep over frequency range to obtain $S_{11}$ and ga...]
+<figures/flat_radome.jpeg, id=483, 1263.72125pt x 811.03pt>
+File: figures/flat_radome.jpeg Graphic file (type jpg)
+<use figures/flat_radome.jpeg>
+Package pdftex.def Info: figures/flat_radome.jpeg  used on input line 86.
+(pdftex.def)             Requested size: 362.37569pt x 232.5691pt.
+ [27pdfTeX warning (ext4): destination with the same identifier (name{table.5.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.113 \end{enumerate}
-                     ]) (./chapters/results.tex [25pdfTeX warning (ext4): destination with the same identifier (name{table.5.3}) has been already used, duplicate ignored
+l.90 
+     ] [28pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1 \chapter
-            {Results}]
+l.129     \item \textbf
+                       {Design Optimization:} Use of metaheuristic algorithm...pdfTeX warning (ext4): destination with the same identifier (name{table.5.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.129     \item \textbf
+                       {Design Optimization:} Use of metaheuristic algorithm... <./figures/flat_radome.jpeg>]) (./chapters/results.tex [29]
 Chapter 6.
-<figures/without_radome/s11.jpeg, id=470, 1589.94pt x 652.4375pt>
+<figures/without_radome/s11.jpeg, id=503, 1589.94pt x 652.4375pt>
 File: figures/without_radome/s11.jpeg Graphic file (type jpg)
 <use figures/without_radome/s11.jpeg>
 Package pdftex.def Info: figures/without_radome/s11.jpeg  used on input line 17.
 (pdftex.def)             Requested size: 452.9679pt x 185.87692pt.
-<figures/without_radome/VSWR.jpeg, id=472, 1589.94pt x 652.4375pt>
+<figures/without_radome/VSWR.jpeg, id=505, 1589.94pt x 652.4375pt>
 File: figures/without_radome/VSWR.jpeg Graphic file (type jpg)
 <use figures/without_radome/VSWR.jpeg>
 Package pdftex.def Info: figures/without_radome/VSWR.jpeg  used on input line 26.
 (pdftex.def)             Requested size: 452.9679pt x 185.87692pt.
-[26
+[30
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.30 
       <./figures/without_radome/s11.jpeg>]
-<figures/without_radome/gain plot.jpeg, id=478, 1589.94pt x 652.4375pt>
+<figures/without_radome/gain plot.jpeg, id=512, 1589.94pt x 652.4375pt>
 File: figures/without_radome/gain plot.jpeg Graphic file (type jpg)
 <use figures/without_radome/gain plot.jpeg>
 Package pdftex.def Info: figures/without_radome/gain plot.jpeg  used on input line 37.
 (pdftex.def)             Requested size: 452.9679pt x 185.87692pt.
-<figures/without_radome/Gain.jpeg, id=480, 1589.94pt x 652.4375pt>
+<figures/without_radome/Gain.jpeg, id=514, 1589.94pt x 652.4375pt>
 File: figures/without_radome/Gain.jpeg Graphic file (type jpg)
 <use figures/without_radome/Gain.jpeg>
 Package pdftex.def Info: figures/without_radome/Gain.jpeg  used on input line 46.
 (pdftex.def)             Requested size: 452.9679pt x 185.87692pt.
- [27pdfTeX warning (ext4): destination with the same identifier (name{figure.6.2}) has been already used, duplicate ignored
+ [31pdfTeX warning (ext4): destination with the same identifier (name{figure.6.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.50 
@@ -559,17 +583,17 @@ l.50
                                                   \__shipout_drop_firstpage_...
 l.50 
       <./figures/without_radome/VSWR.jpeg> <./figures/without_radome/gain plot.jpeg>]
-<figures/without_radome/co.jpeg, id=486, 1589.94pt x 857.2025pt>
+<figures/without_radome/co.jpeg, id=520, 1589.94pt x 857.2025pt>
 File: figures/without_radome/co.jpeg Graphic file (type jpg)
 <use figures/without_radome/co.jpeg>
 Package pdftex.def Info: figures/without_radome/co.jpeg  used on input line 57.
 (pdftex.def)             Requested size: 452.9679pt x 244.21368pt.
-<figures/without_radome/cross.jpeg, id=487, 1589.94pt x 857.2025pt>
+<figures/without_radome/cross.jpeg, id=521, 1589.94pt x 857.2025pt>
 File: figures/without_radome/cross.jpeg Graphic file (type jpg)
 <use figures/without_radome/cross.jpeg>
 Package pdftex.def Info: figures/without_radome/cross.jpeg  used on input line 64.
 (pdftex.def)             Requested size: 452.9679pt x 244.21368pt.
- [28pdfTeX warning (ext4): destination with the same identifier (name{figure.6.4}) has been already used, duplicate ignored
+ [32pdfTeX warning (ext4): destination with the same identifier (name{figure.6.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.68 
@@ -578,12 +602,12 @@ l.68
                                                   \__shipout_drop_firstpage_...
 l.68 
       <./figures/without_radome/Gain.jpeg> <./figures/without_radome/Co.jpeg>]
-<figures/without_radome/rE.jpeg, id=495, 1589.94pt x 652.4375pt>
+<figures/without_radome/rE.jpeg, id=529, 1589.94pt x 652.4375pt>
 File: figures/without_radome/rE.jpeg Graphic file (type jpg)
 <use figures/without_radome/rE.jpeg>
 Package pdftex.def Info: figures/without_radome/rE.jpeg  used on input line 75.
 (pdftex.def)             Requested size: 452.9679pt x 185.87692pt.
- [29pdfTeX warning (ext4): destination with the same identifier (name{figure.6.6}) has been already used, duplicate ignored
+ [33pdfTeX warning (ext4): destination with the same identifier (name{figure.6.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.81 
@@ -592,32 +616,32 @@ l.81
                                                   \__shipout_drop_firstpage_...
 l.81 
       <./figures/without_radome/Cross.jpeg> <./figures/without_radome/rE.jpeg>]
-<figures/parametric_sweep/best parameter.jpeg, id=501, 1589.94pt x 888.31876pt>
+<figures/parametric_sweep/best parameter.jpeg, id=535, 1589.94pt x 811.03pt>
 File: figures/parametric_sweep/best parameter.jpeg Graphic file (type jpg)
 <use figures/parametric_sweep/best parameter.jpeg>
 Package pdftex.def Info: figures/parametric_sweep/best parameter.jpeg  used on input line 86.
-(pdftex.def)             Requested size: 452.9679pt x 253.0786pt.
-<figures/parametric_sweep/parametric analysis.jpeg, id=503, 1589.94pt x 888.31876pt>
+(pdftex.def)             Requested size: 452.9679pt x 231.05933pt.
+<figures/parametric_sweep/parametric analysis.jpeg, id=537, 1589.94pt x 811.03pt>
 File: figures/parametric_sweep/parametric analysis.jpeg Graphic file (type jpg)
 <use figures/parametric_sweep/parametric analysis.jpeg>
 Package pdftex.def Info: figures/parametric_sweep/parametric analysis.jpeg  used on input line 95.
-(pdftex.def)             Requested size: 452.9679pt x 253.0786pt.
- [30pdfTeX warning (ext4): destination with the same identifier (name{figure.6.8}) has been already used, duplicate ignored
+(pdftex.def)             Requested size: 452.9679pt x 231.05933pt.
+ [34pdfTeX warning (ext4): destination with the same identifier (name{figure.6.8}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.99 
       <./figures/parametric_sweep/best parameter.jpeg>]
-<figures/parametric_sweep/Radome distance (E plane).jpeg, id=510, 1589.94pt x 621.32124pt>
+<figures/parametric_sweep/Radome distance (E plane).jpeg, id=543, 1589.94pt x 621.32124pt>
 File: figures/parametric_sweep/Radome distance (E plane).jpeg Graphic file (type jpg)
 <use figures/parametric_sweep/Radome distance (E plane).jpeg>
 Package pdftex.def Info: figures/parametric_sweep/Radome distance (E plane).jpeg  used on input line 113.
 (pdftex.def)             Requested size: 452.9679pt x 177.01202pt.
-<figures/parametric_sweep/radome distance (H plane).jpeg, id=511, 1589.94pt x 621.32124pt>
+<figures/parametric_sweep/radome distance (H plane).jpeg, id=544, 1589.94pt x 621.32124pt>
 File: figures/parametric_sweep/radome distance (H plane).jpeg Graphic file (type jpg)
 <use figures/parametric_sweep/radome distance (H plane).jpeg>
 Package pdftex.def Info: figures/parametric_sweep/radome distance (H plane).jpeg  used on input line 120.
 (pdftex.def)             Requested size: 452.9679pt x 177.01202pt.
- [31pdfTeX warning (ext4): destination with the same identifier (name{figure.6.9}) has been already used, duplicate ignored
+ [35pdfTeX warning (ext4): destination with the same identifier (name{figure.6.9}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.124 
@@ -626,17 +650,17 @@ l.124
                                                   \__shipout_drop_firstpage_...
 l.124 
        <./figures/parametric_sweep/parametric analysis.jpeg> <./figures/parametric_sweep/Radome distance (E plane).jpeg>]
-<figures/with_radome/gain plot.jpeg, id=518, 1589.94pt x 621.32124pt>
+<figures/with_radome/gain plot.jpeg, id=551, 1589.94pt x 621.32124pt>
 File: figures/with_radome/gain plot.jpeg Graphic file (type jpg)
 <use figures/with_radome/gain plot.jpeg>
 Package pdftex.def Info: figures/with_radome/gain plot.jpeg  used on input line 133.
 (pdftex.def)             Requested size: 452.9679pt x 177.01202pt.
-<figures/comparison_flat_radome/s11.png, id=520, 578.16pt x 433.62pt>
+<figures/comparison_flat_radome/s11.png, id=553, 578.16pt x 433.62pt>
 File: figures/comparison_flat_radome/s11.png Graphic file (type png)
 <use figures/comparison_flat_radome/s11.png>
 Package pdftex.def Info: figures/comparison_flat_radome/s11.png  used on input line 144.
 (pdftex.def)             Requested size: 452.9679pt x 339.72418pt.
- [32pdfTeX warning (ext4): destination with the same identifier (name{figure.6.11}) has been already used, duplicate ignored
+ [36pdfTeX warning (ext4): destination with the same identifier (name{figure.6.11}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.148 
@@ -645,112 +669,112 @@ l.148
                                                   \__shipout_drop_firstpage_...
 l.148 
        <./figures/parametric_sweep/radome distance (H plane).jpeg> <./figures/with_radome/gain plot.jpeg>]
-<figures/comparison_flat_radome/vswr.png, id=526, 578.16pt x 433.62pt>
+<figures/comparison_flat_radome/vswr.png, id=560, 578.16pt x 433.62pt>
 File: figures/comparison_flat_radome/vswr.png Graphic file (type png)
 <use figures/comparison_flat_radome/vswr.png>
 Package pdftex.def Info: figures/comparison_flat_radome/vswr.png  used on input line 153.
 (pdftex.def)             Requested size: 452.9679pt x 339.72418pt.
- [33pdfTeX warning (ext4): destination with the same identifier (name{figure.6.13}) has been already used, duplicate ignored
+ [37pdfTeX warning (ext4): destination with the same identifier (name{figure.6.13}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.157 
        <./figures/comparison_flat_radome/s11.png>]
-<figures/comparison_flat_radome/gainE_3_GHz.png, id=533, 578.16pt x 433.62pt>
+<figures/comparison_flat_radome/gainE_3_GHz.png, id=568, 578.16pt x 433.62pt>
 File: figures/comparison_flat_radome/gainE_3_GHz.png Graphic file (type png)
 <use figures/comparison_flat_radome/gainE_3_GHz.png>
 Package pdftex.def Info: figures/comparison_flat_radome/gainE_3_GHz.png  used on input line 166.
 (pdftex.def)             Requested size: 452.9679pt x 339.72418pt.
- [34pdfTeX warning (ext4): destination with the same identifier (name{figure.6.14}) has been already used, duplicate ignored
+ [38pdfTeX warning (ext4): destination with the same identifier (name{figure.6.14}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.170 
        <./figures/comparison_flat_radome/vswr.png>]
-<figures/comparison_flat_radome/gainE_6_GHz.png, id=540, 578.16pt x 433.62pt>
+<figures/comparison_flat_radome/gainE_6_GHz.png, id=575, 578.16pt x 433.62pt>
 File: figures/comparison_flat_radome/gainE_6_GHz.png Graphic file (type png)
 <use figures/comparison_flat_radome/gainE_6_GHz.png>
 Package pdftex.def Info: figures/comparison_flat_radome/gainE_6_GHz.png  used on input line 175.
 (pdftex.def)             Requested size: 452.9679pt x 339.72418pt.
- [35pdfTeX warning (ext4): destination with the same identifier (name{figure.6.15}) has been already used, duplicate ignored
+ [39pdfTeX warning (ext4): destination with the same identifier (name{figure.6.15}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.179 
        <./figures/comparison_flat_radome/gainE_3_GHz.png>]
-<figures/comparison_flat_radome/gainE_9_GHz.png, id=547, 578.16pt x 433.62pt>
+<figures/comparison_flat_radome/gainE_9_GHz.png, id=582, 578.16pt x 433.62pt>
 File: figures/comparison_flat_radome/gainE_9_GHz.png Graphic file (type png)
 <use figures/comparison_flat_radome/gainE_9_GHz.png>
 Package pdftex.def Info: figures/comparison_flat_radome/gainE_9_GHz.png  used on input line 184.
 (pdftex.def)             Requested size: 452.9679pt x 339.72418pt.
- [36pdfTeX warning (ext4): destination with the same identifier (name{figure.6.16}) has been already used, duplicate ignored
+ [40pdfTeX warning (ext4): destination with the same identifier (name{figure.6.16}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.188 
        <./figures/comparison_flat_radome/gainE_6_GHz.png>]
-<figures/comparison_flat_radome/gainH_3_GHz.png, id=555, 578.16pt x 433.62pt>
+<figures/comparison_flat_radome/gainH_3_GHz.png, id=589, 578.16pt x 433.62pt>
 File: figures/comparison_flat_radome/gainH_3_GHz.png Graphic file (type png)
 <use figures/comparison_flat_radome/gainH_3_GHz.png>
 Package pdftex.def Info: figures/comparison_flat_radome/gainH_3_GHz.png  used on input line 197.
 (pdftex.def)             Requested size: 452.9679pt x 339.72418pt.
- [37pdfTeX warning (ext4): destination with the same identifier (name{figure.6.17}) has been already used, duplicate ignored
+ [41pdfTeX warning (ext4): destination with the same identifier (name{figure.6.17}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.201 
        <./figures/comparison_flat_radome/gainE_9_GHz.png>]
-<figures/comparison_flat_radome/gainH_6_GHz.png, id=562, 578.16pt x 433.62pt>
+<figures/comparison_flat_radome/gainH_6_GHz.png, id=596, 578.16pt x 433.62pt>
 File: figures/comparison_flat_radome/gainH_6_GHz.png Graphic file (type png)
 <use figures/comparison_flat_radome/gainH_6_GHz.png>
 Package pdftex.def Info: figures/comparison_flat_radome/gainH_6_GHz.png  used on input line 206.
 (pdftex.def)             Requested size: 452.9679pt x 339.72418pt.
- [38pdfTeX warning (ext4): destination with the same identifier (name{figure.6.18}) has been already used, duplicate ignored
+ [42pdfTeX warning (ext4): destination with the same identifier (name{figure.6.18}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.210 
        <./figures/comparison_flat_radome/gainH_3_GHz.png>]
-<figures/comparison_flat_radome/gainH_9_GHz.png, id=570, 578.16pt x 433.62pt>
+<figures/comparison_flat_radome/gainH_9_GHz.png, id=604, 578.16pt x 433.62pt>
 File: figures/comparison_flat_radome/gainH_9_GHz.png Graphic file (type png)
 <use figures/comparison_flat_radome/gainH_9_GHz.png>
 Package pdftex.def Info: figures/comparison_flat_radome/gainH_9_GHz.png  used on input line 215.
 (pdftex.def)             Requested size: 452.9679pt x 339.72418pt.
- [39pdfTeX warning (ext4): destination with the same identifier (name{figure.6.19}) has been already used, duplicate ignored
+ [43pdfTeX warning (ext4): destination with the same identifier (name{figure.6.19}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.219 
        <./figures/comparison_flat_radome/gainH_6_GHz.png>]
-<figures/comparison_flat_radome/gain_E_polar.png, id=577, 578.16pt x 433.62pt>
+<figures/comparison_flat_radome/gain_E_polar.png, id=611, 578.16pt x 433.62pt>
 File: figures/comparison_flat_radome/gain_E_polar.png Graphic file (type png)
 <use figures/comparison_flat_radome/gain_E_polar.png>
 Package pdftex.def Info: figures/comparison_flat_radome/gain_E_polar.png  used on input line 226.
 (pdftex.def)             Requested size: 452.9679pt x 339.72418pt.
- [40pdfTeX warning (ext4): destination with the same identifier (name{figure.6.20}) has been already used, duplicate ignored
+ [44pdfTeX warning (ext4): destination with the same identifier (name{figure.6.20}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.230 
        <./figures/comparison_flat_radome/gainH_9_GHz.png>]
-<figures/comparison_flat_radome/gain_H_polar.png, id=584, 578.16pt x 433.62pt>
+<figures/comparison_flat_radome/gain_H_polar.png, id=618, 578.16pt x 433.62pt>
 File: figures/comparison_flat_radome/gain_H_polar.png Graphic file (type png)
 <use figures/comparison_flat_radome/gain_H_polar.png>
 Package pdftex.def Info: figures/comparison_flat_radome/gain_H_polar.png  used on input line 235.
 (pdftex.def)             Requested size: 452.9679pt x 339.72418pt.
- [41pdfTeX warning (ext4): destination with the same identifier (name{figure.6.21}) has been already used, duplicate ignored
+ [45pdfTeX warning (ext4): destination with the same identifier (name{figure.6.21}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.239 
        <./figures/comparison_flat_radome/gain_E_polar.png>]
-<figures/with_radome/Co.jpeg, id=591, 1589.94pt x 621.32124pt>
+<figures/with_radome/Co.jpeg, id=625, 1589.94pt x 621.32124pt>
 File: figures/with_radome/Co.jpeg Graphic file (type jpg)
 <use figures/with_radome/Co.jpeg>
 Package pdftex.def Info: figures/with_radome/Co.jpeg  used on input line 246.
 (pdftex.def)             Requested size: 452.9679pt x 177.01202pt.
- [42pdfTeX warning (ext4): destination with the same identifier (name{figure.6.22}) has been already used, duplicate ignored
+ [46pdfTeX warning (ext4): destination with the same identifier (name{figure.6.22}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.250 
        <./figures/comparison_flat_radome/gain_H_polar.png>]
-<figures/with_radome/Cross.jpeg, id=598, 1589.94pt x 621.32124pt>
+<figures/with_radome/Cross.jpeg, id=631, 1589.94pt x 621.32124pt>
 File: figures/with_radome/Cross.jpeg Graphic file (type jpg)
 <use figures/with_radome/Cross.jpeg>
 Package pdftex.def Info: figures/with_radome/Cross.jpeg  used on input line 253.
 (pdftex.def)             Requested size: 452.9679pt x 177.01202pt.
- [43pdfTeX warning (ext4): destination with the same identifier (name{figure.6.23}) has been already used, duplicate ignored
+ [47pdfTeX warning (ext4): destination with the same identifier (name{figure.6.23}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.264 \newpage
@@ -758,31 +782,31 @@ l.264 \newpage
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.264 \newpage
-               <./figures/with_radome/Co.jpeg> <./figures/with_radome/Cross.jpeg>]) (./chapters/conclusion.tex [44]
+               <./figures/with_radome/Co.jpeg> <./figures/with_radome/Cross.jpeg>]) (./chapters/conclusion.tex [48]
 Chapter 7.
-) (./chapters/acknowledgements.tex [45
+) (./chapters/acknowledgements.tex [49
 
-]) (./main.bbl [46
+]) (./main.bbl [50
 
-]) [47
+]) [51
 
 ] (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 0E0951B896E8541CF8BF1112C8D4C417;7965.
+(rerunfilecheck)             Checksum: 47360A2EEA4E345794608CB83232246A;7965.
  ) 
 Here is how much of TeX's memory you used:
- 11340 strings out of 480171
- 178190 string characters out of 5894489
- 471953 words of memory out of 5000000
- 28919 multiletter control sequences out of 15000+600000
- 479981 words of font info for 67 fonts, out of 8000000 for 9000
+ 11372 strings out of 480171
+ 178728 string characters out of 5894489
+ 471285 words of memory out of 5000000
+ 28936 multiletter control sequences out of 15000+600000
+ 480149 words of font info for 68 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
- 60i,13n,63p,996b,419s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/manohara/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk> </home/manohara/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0900.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (48 pages, 7840670 bytes).
+ 60i,14n,63p,996b,406s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/manohara/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk> </home/manohara/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0900.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (52 pages, 7905646 bytes).
 PDF statistics:
- 750 PDF objects out of 1000 (max. 8388607)
- 608 compressed objects within 7 object streams
- 152 named destinations out of 1000 (max. 500000)
- 484 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 793 PDF objects out of 1000 (max. 8388607)
+ 643 compressed objects within 7 object streams
+ 164 named destinations out of 1000 (max. 500000)
+ 494 words of extra memory for PDF output out of 10000 (max. 10000000)
 
