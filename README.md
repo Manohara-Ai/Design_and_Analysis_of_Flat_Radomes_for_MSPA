@@ -1,4 +1,4 @@
-# Design and Analysis of Flat Radomes for MSPA
+# Design_and_Analysis_of_Flat_Radomes_for_MSPA
 
 This project explores the electromagnetic performance of **flat dielectric radomes** enclosing **Microstrip Patch Antennas (MSPAs)**, using full-wave simulations in ANSYS HFSS. The focus is on understanding how dielectric materials, geometry, and placement influence antenna behavior such as S-parameters, gain, and radiation patterns.
 
@@ -70,4 +70,3 @@ The project includes:
 
 **B M Manohara**  
 GitHub: [@Manohara-Ai](https://github.com/Manohara-Ai)
-# Design_and_Analysis_of_Flat_Radomes_for_MSPA
